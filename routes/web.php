@@ -18,6 +18,8 @@ Route::get('/jobs/{id}', function ($id) {
     return view('job', ['job' => $job]);
 });
 
+//
+
 Route::get('/contact', function () {
     return view('contact');
 });
